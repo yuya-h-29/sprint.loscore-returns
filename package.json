@@ -1,0 +1,25 @@
+{
+  "name": "sprint.loscore-returns",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "LoScore Returns to Haunt You",
+  "scripts": {
+    "test": "mocha spec",
+    "lint": "eslint --fix --ext .js src spec",
+    "precommit": "pretty-quick --staged"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "cross-env": "^5.1.4",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-problems": "^0.1.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "husky": "^0.14.3",
+    "mocha": "^5.1.1",
+    "prettier": "^1.11.1",
+    "pretty-quick": "^1.4.1",
+    "sinon": "^7.3.2"
+  },
+  "author": "Yuya Harada <>"
+}
